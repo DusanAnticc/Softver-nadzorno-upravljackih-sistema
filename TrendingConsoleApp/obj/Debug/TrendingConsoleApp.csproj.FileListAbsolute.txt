@@ -1,0 +1,7 @@
+C:\Users\Dusan\source\repos\SnusProjekat\TrendingConsoleApp\bin\Debug\TrendingConsoleApp.exe.config
+C:\Users\Dusan\source\repos\SnusProjekat\TrendingConsoleApp\bin\Debug\TrendingConsoleApp.exe
+C:\Users\Dusan\source\repos\SnusProjekat\TrendingConsoleApp\bin\Debug\TrendingConsoleApp.pdb
+C:\Users\Dusan\source\repos\SnusProjekat\TrendingConsoleApp\obj\Debug\TrendingConsoleApp.csprojAssemblyReference.cache
+C:\Users\Dusan\source\repos\SnusProjekat\TrendingConsoleApp\obj\Debug\TrendingConsoleApp.csproj.CoreCompileInputs.cache
+C:\Users\Dusan\source\repos\SnusProjekat\TrendingConsoleApp\obj\Debug\TrendingConsoleApp.exe
+C:\Users\Dusan\source\repos\SnusProjekat\TrendingConsoleApp\obj\Debug\TrendingConsoleApp.pdb
