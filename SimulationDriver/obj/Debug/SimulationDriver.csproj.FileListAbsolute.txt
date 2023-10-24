@@ -1,0 +1,6 @@
+C:\Users\Dusan\source\repos\SnusProjekat\SimulationDriver\bin\Debug\SimulationDriver.dll
+C:\Users\Dusan\source\repos\SnusProjekat\SimulationDriver\bin\Debug\SimulationDriver.pdb
+C:\Users\Dusan\source\repos\SnusProjekat\SimulationDriver\obj\Debug\SimulationDriver.csprojAssemblyReference.cache
+C:\Users\Dusan\source\repos\SnusProjekat\SimulationDriver\obj\Debug\SimulationDriver.csproj.CoreCompileInputs.cache
+C:\Users\Dusan\source\repos\SnusProjekat\SimulationDriver\obj\Debug\SimulationDriver.dll
+C:\Users\Dusan\source\repos\SnusProjekat\SimulationDriver\obj\Debug\SimulationDriver.pdb

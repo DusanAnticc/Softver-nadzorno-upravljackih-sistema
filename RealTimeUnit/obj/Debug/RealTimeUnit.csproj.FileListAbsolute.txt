@@ -1,0 +1,7 @@
+C:\Users\Dusan\source\repos\SnusProjekat\RealTimeUnit\bin\Debug\RealTimeUnit.exe.config
+C:\Users\Dusan\source\repos\SnusProjekat\RealTimeUnit\bin\Debug\RealTimeUnit.exe
+C:\Users\Dusan\source\repos\SnusProjekat\RealTimeUnit\bin\Debug\RealTimeUnit.pdb
+C:\Users\Dusan\source\repos\SnusProjekat\RealTimeUnit\obj\Debug\RealTimeUnit.csprojAssemblyReference.cache
+C:\Users\Dusan\source\repos\SnusProjekat\RealTimeUnit\obj\Debug\RealTimeUnit.csproj.CoreCompileInputs.cache
+C:\Users\Dusan\source\repos\SnusProjekat\RealTimeUnit\obj\Debug\RealTimeUnit.exe
+C:\Users\Dusan\source\repos\SnusProjekat\RealTimeUnit\obj\Debug\RealTimeUnit.pdb

@@ -1,0 +1,7 @@
+C:\Users\Dusan\source\repos\SnusProjekat\ReportManager\bin\Debug\ReportManager.exe.config
+C:\Users\Dusan\source\repos\SnusProjekat\ReportManager\bin\Debug\ReportManager.exe
+C:\Users\Dusan\source\repos\SnusProjekat\ReportManager\bin\Debug\ReportManager.pdb
+C:\Users\Dusan\source\repos\SnusProjekat\ReportManager\obj\Debug\ReportManager.csprojAssemblyReference.cache
+C:\Users\Dusan\source\repos\SnusProjekat\ReportManager\obj\Debug\ReportManager.csproj.CoreCompileInputs.cache
+C:\Users\Dusan\source\repos\SnusProjekat\ReportManager\obj\Debug\ReportManager.exe
+C:\Users\Dusan\source\repos\SnusProjekat\ReportManager\obj\Debug\ReportManager.pdb

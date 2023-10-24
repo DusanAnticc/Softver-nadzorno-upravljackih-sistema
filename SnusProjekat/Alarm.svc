@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="SnusProjekat.Alarm" CodeBehind="Alarm.svc.cs" %>
