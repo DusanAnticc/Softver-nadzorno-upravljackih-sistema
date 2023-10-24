@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/SnusProjekat" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/SnusProjekat" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="User">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Id" type="xs:int" />
+      <xs:element minOccurs="0" name="Password" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="UserName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="admin" type="xs:boolean" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="User" nillable="true" type="tns:User" />
+  <xs:complexType name="DI">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="IOaddress" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="alarms" nillable="true" type="tns:ArrayOfalarm" />
+      <xs:element minOccurs="0" name="description" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="driver" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="onOffscan" type="xs:boolean" />
+      <xs:element minOccurs="0" name="scanTime" type="xs:int" />
+      <xs:element minOccurs="0" name="tagName" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="DI" nillable="true" type="tns:DI" />
+  <xs:complexType name="ArrayOfalarm">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="alarm" nillable="true" type="tns:alarm" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfalarm" nillable="true" type="tns:ArrayOfalarm" />
+  <xs:complexType name="alarm">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Date" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="Id" type="xs:int" />
+      <xs:element minOccurs="0" name="Priority" type="xs:int" />
+      <xs:element minOccurs="0" name="TagName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TagValue" type="xs:double" />
+      <xs:element minOccurs="0" name="Type" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Value" type="xs:double" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="alarm" nillable="true" type="tns:alarm" />
+  <xs:complexType name="DO">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="IOaddress" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="description" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="initialValue" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="tagName" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="DO" nillable="true" type="tns:DO" />
+  <xs:complexType name="AO">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="IOaddress" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="description" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="highLimit" type="xs:double" />
+      <xs:element minOccurs="0" name="initialValue" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="lowLimit" type="xs:double" />
+      <xs:element minOccurs="0" name="tagName" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="AO" nillable="true" type="tns:AO" />
+  <xs:complexType name="AI">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="IOaddress" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="alarms" nillable="true" type="tns:ArrayOfalarm" />
+      <xs:element minOccurs="0" name="description" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="driver" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="highLimit" type="xs:double" />
+      <xs:element minOccurs="0" name="lowLimit" type="xs:double" />
+      <xs:element minOccurs="0" name="onOffscan" type="xs:boolean" />
+      <xs:element minOccurs="0" name="scanTime" type="xs:int" />
+      <xs:element minOccurs="0" name="tagName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="units" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="AI" nillable="true" type="tns:AI" />
+</xs:schema>

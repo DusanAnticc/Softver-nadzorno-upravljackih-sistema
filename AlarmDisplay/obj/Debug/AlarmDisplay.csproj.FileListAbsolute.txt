@@ -1,0 +1,6 @@
+C:\Users\Dusan\source\repos\SnusProjekat\AlarmDisplay\bin\Debug\AlarmDisplay.exe.config
+C:\Users\Dusan\source\repos\SnusProjekat\AlarmDisplay\bin\Debug\AlarmDisplay.exe
+C:\Users\Dusan\source\repos\SnusProjekat\AlarmDisplay\bin\Debug\AlarmDisplay.pdb
+C:\Users\Dusan\source\repos\SnusProjekat\AlarmDisplay\obj\Debug\AlarmDisplay.csproj.CoreCompileInputs.cache
+C:\Users\Dusan\source\repos\SnusProjekat\AlarmDisplay\obj\Debug\AlarmDisplay.exe
+C:\Users\Dusan\source\repos\SnusProjekat\AlarmDisplay\obj\Debug\AlarmDisplay.pdb
